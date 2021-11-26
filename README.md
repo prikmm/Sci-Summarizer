@@ -1,6 +1,8 @@
 # Sci-Summarizer
 A Notebook which can be used for training **T5, Bart, Pegasus, Prophetnet on Summarization Dataset**. This notebook is capable of training large models using either TPU or GPU.
 
+Kaggle Notebook: https://www.kaggle.com/priyammehta/hf-deepspeed
+
 This is achieved via 2 solutions:
 1. For TPU, I have implemented a `custom TPU Trainer` class which inherits HuggingFace Trainer module. My custom class implements `xser` module from PyTorch. More information given below.
 2. For GPU, I have provided functionality for `DeepSpeed`. DeepSpeed helps in bringing forth the full-potential of a single GPU. It helps in training large models with effective batch-size via different concept like parameter offloading, optimizer offloading etc.
