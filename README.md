@@ -1,5 +1,5 @@
 # Sci-Summarizer
-A Notebook which can be used for training **T5, Bart, Pegasus, Prophetnet on Summarization Dataset**. This notebook is capable of training large models using either TPU or GPU.
+A Notebook which can be used for training **T5, Bart, Pegasus, Prophetnet on Summarization Dataset** on limited compute resources on Kaggle or Colab. This notebook is capable of training large models using either TPU or GPU.
 
 Kaggle Notebook: https://www.kaggle.com/priyammehta/hf-deepspeed
 
